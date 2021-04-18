@@ -1,0 +1,37 @@
+#dd {
+	widows: 300px;
+	height: 300px;
+	background-color: pink;
+	line-height: 300px;
+	text-align: center;
+	font-size: 100px;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+.odiv {
+	width: 200px;
+	height: 200px;
+	background: #f00;
+	position: relative;
+	left: -200px;
+	top: 100px;
+}
+
+.sdiv {
+	width: 20px;
+	height: 60px;
+	background: #00f;
+	position: absolute;
+	top: 70px;
+	right: -20px;
+}
